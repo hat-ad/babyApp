@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "baby-app",
+    "slug": "baby-app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.app.babyapptest",
+      "versionCode": 1,
+      "config" : {
+        "branch" : {
+          "apiKey" : "key_test_oaO79ynqUZx6j5zXpbNvkfdgEDldOq9d"
+        }
+      }
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config" : {
+        "branch" : {
+          "apiKey" : "key_test_oaO79ynqUZx6j5zXpbNvkfdgEDldOq9d"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+    }
+  }
+}
